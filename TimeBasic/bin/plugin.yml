@@ -1,0 +1,30 @@
+name: TimeBasic
+main: me.cxdur.timebasic.TimeBasic
+version: 1.0
+description: A plugin created to easily configure the weather and time
+author: CXdur
+commands:
+    weather:
+      aliases:
+        - playerweather
+      description: Set the weather for yourself
+      usage: |
+             /<command>
+    adweather:
+      aliases:
+        - adminweather
+      description: Set the weather in your world
+      usage: |
+             /<command>
+    time:
+      aliases:
+        - playertime
+      description: Set the time for yourself
+      usage: |
+             /<command>
+    adtime:
+      aliases:
+        - admintime
+      description: Set the time in your world
+      usage: |
+             /<command>
